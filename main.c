@@ -1,3 +1,8 @@
+/**
+ * Ver. 1.0
+ * 2019. 10. 10.
+ */
+
 void main() {
 	int number1, number2;
 	string operator;
