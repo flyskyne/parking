@@ -3,7 +3,7 @@ void main() {
 	string operator;
 	int result;
 
-	printf("input: ");
+	printf("input (ex> 1 + 2): ");
 	scanf("%d %s %d", &number1, &operator, &number2);
 
 	switch (operator) {
