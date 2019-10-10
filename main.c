@@ -6,14 +6,21 @@ void main() {
 	printf("input: ");
 	scanf("%d %s %d", &number1, &operator, &number2);
 
-	//TODO switch
+	switch (operator) {
+		case "+":
+			result = add(number1, number2);
+			break;
+
+		case "-":
+			result = minus(number1, number2);
+			break;
+	}
 
 	printf("result is %d", result);
 }
 
 int add(int a, int b) {
-	//TODO
-	return 0;
+	return a + b;
 }
 
 int minus(int a, int b) {
