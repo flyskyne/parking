@@ -17,6 +17,5 @@ int add(int a, int b) {
 }
 
 int minus(int a, int b) {
-	//TODO
-	return 0;
+	return a - b;
 }
