@@ -3,7 +3,7 @@ void main() {
 	string operator;
 	int result;
 
-	printf("input: ");
+	printf("숫자와 연상자를 입력하세요: ");
 	scanf("%d %s %d", &number1, &operator, &number2);
 
 	switch (operator) {
